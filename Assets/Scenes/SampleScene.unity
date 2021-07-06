@@ -3127,11 +3127,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 962996e23ffcbc44d92fb20cd03940cd, type: 3}
---- !u!1 &1376738244 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1493707066618324477, guid: 96f27352b1259aa48b6c526114ad374c, type: 3}
-  m_PrefabInstance: {fileID: 5136138412383096913}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1408731741
 GameObject:
   m_ObjectHideFlags: 0
@@ -4631,14 +4626,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cow Manager
       objectReference: {fileID: 0}
-    - target: {fileID: 8288055977226464319, guid: 96f27352b1259aa48b6c526114ad374c, type: 3}
-      propertyPath: cowPrefab
-      value: 
-      objectReference: {fileID: 3619730397431992700, guid: 1f07687d63f55d2469b1eb114d51c23d, type: 3}
-    - target: {fileID: 8288055977226464319, guid: 96f27352b1259aa48b6c526114ad374c, type: 3}
-      propertyPath: offspringSpawnPoint
-      value: 
-      objectReference: {fileID: 1376738244}
+    - target: {fileID: 8895684263887941910, guid: 96f27352b1259aa48b6c526114ad374c, type: 3}
+      propertyPath: familyID
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96f27352b1259aa48b6c526114ad374c, type: 3}
 --- !u!23 &7842311299655560710

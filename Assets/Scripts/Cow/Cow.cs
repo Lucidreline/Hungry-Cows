@@ -9,13 +9,12 @@ public class Cow : MonoBehaviour
     public int foodLevel = 3;
     [SerializeField] float foodLevelDecreaseRate = 10f;
 
-    public int familyID;
+    int familyID;
     [SerializeField] TextMeshProUGUI familyIDText;
 
     // Start is called before the first frame update
     void Start()
     {
-        familyIDText.text = familyID.ToString();
         StartCoroutine(WaitToDecrease());
     }
 
@@ -40,6 +39,17 @@ public class Cow : MonoBehaviour
         foodLevel--;
         if (foodLevel <= 0)
             Destroy(this.gameObject);
+    }
+
+    public void SetFamilyID(int id)
+    {
+        familyID = id;
+        familyIDText.text = familyID.ToString();
+    }
+
+    public int GetFamilyID()
+    {
+        return familyID;
     }
 
     IEnumerator WaitToDecrease()

@@ -14,7 +14,7 @@ public class CowManager : MonoBehaviour
         int counter = 1;
         foreach(GameObject cow in allCows)
         {
-            cow.GetComponent<Cow>().familyID = counter;
+            cow.GetComponent<Cow>().SetFamilyID(counter);
             counter++;
         }
     }
@@ -32,7 +32,7 @@ public class CowManager : MonoBehaviour
         GameObject offspringObj = Instantiate(cowPrefab, offspringSpawnPoint.transform.position, Quaternion.identity);
         Cow offspring = offspringObj.GetComponent<Cow>();
 
-        offspring.familyID = mother.familyID;
+        offspring.SetFamilyID(mother.GetFamilyID());
         offspringObj.GetComponent<CowMovement>().baseSpeed = motherCow.GetComponent<CowMovement>().baseSpeed + Random.Range(-0.1f, 0.1f);
         mother.foodLevel -= 3;
     }

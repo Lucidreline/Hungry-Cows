@@ -123,8 +123,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c6ab868287818747ae331b78cf82d6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offspringSpawnPoint: {fileID: 0}
-  cowPrefab: {fileID: 0}
+  offspringSpawnPoint: {fileID: 1493707066618324477}
+  cowPrefab: {fileID: 3619730397431992700, guid: 1f07687d63f55d2469b1eb114d51c23d, type: 3}
 --- !u!1001 &5136138410490161826
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -192,6 +192,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cow (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4338350831927847380, guid: 1f07687d63f55d2469b1eb114d51c23d, type: 3}
+      propertyPath: cowManager
+      value: 
+      objectReference: {fileID: 8288055977226464319}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1f07687d63f55d2469b1eb114d51c23d, type: 3}
 --- !u!4 &8463972855678443594 stripped
@@ -266,6 +270,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cow (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4338350831927847380, guid: 1f07687d63f55d2469b1eb114d51c23d, type: 3}
+      propertyPath: cowManager
+      value: 
+      objectReference: {fileID: 8288055977226464319}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1f07687d63f55d2469b1eb114d51c23d, type: 3}
 --- !u!4 &8463972855586638791 stripped
@@ -340,6 +348,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cow (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 4338350831927847380, guid: 1f07687d63f55d2469b1eb114d51c23d, type: 3}
+      propertyPath: cowManager
+      value: 
+      objectReference: {fileID: 8288055977226464319}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1f07687d63f55d2469b1eb114d51c23d, type: 3}
 --- !u!4 &8463972855449058798 stripped
@@ -414,6 +426,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cow (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4338350831927847380, guid: 1f07687d63f55d2469b1eb114d51c23d, type: 3}
+      propertyPath: cowManager
+      value: 
+      objectReference: {fileID: 8288055977226464319}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1f07687d63f55d2469b1eb114d51c23d, type: 3}
 --- !u!4 &8463972855435276027 stripped
@@ -488,6 +504,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cow (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 4338350831927847380, guid: 1f07687d63f55d2469b1eb114d51c23d, type: 3}
+      propertyPath: cowManager
+      value: 
+      objectReference: {fileID: 8288055977226464319}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1f07687d63f55d2469b1eb114d51c23d, type: 3}
 --- !u!4 &8463972855890170033 stripped
@@ -562,6 +582,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cow (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 4338350831927847380, guid: 1f07687d63f55d2469b1eb114d51c23d, type: 3}
+      propertyPath: cowManager
+      value: 
+      objectReference: {fileID: 8288055977226464319}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1f07687d63f55d2469b1eb114d51c23d, type: 3}
 --- !u!4 &8463972854437809953 stripped
@@ -636,6 +660,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cow (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 4338350831927847380, guid: 1f07687d63f55d2469b1eb114d51c23d, type: 3}
+      propertyPath: cowManager
+      value: 
+      objectReference: {fileID: 8288055977226464319}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1f07687d63f55d2469b1eb114d51c23d, type: 3}
 --- !u!4 &8463972855218539662 stripped
@@ -710,6 +738,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cow (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 4338350831927847380, guid: 1f07687d63f55d2469b1eb114d51c23d, type: 3}
+      propertyPath: cowManager
+      value: 
+      objectReference: {fileID: 8288055977226464319}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1f07687d63f55d2469b1eb114d51c23d, type: 3}
 --- !u!4 &8463972854885024109 stripped
@@ -784,6 +816,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cow
       objectReference: {fileID: 0}
+    - target: {fileID: 4338350831927847380, guid: 1f07687d63f55d2469b1eb114d51c23d, type: 3}
+      propertyPath: cowManager
+      value: 
+      objectReference: {fileID: 8288055977226464319}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1f07687d63f55d2469b1eb114d51c23d, type: 3}
 --- !u!4 &8463972854797734442 stripped
